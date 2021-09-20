@@ -5,7 +5,7 @@
 const config = {
     build: {
         outDir: "docs",
-        base: "./"
+        base: "/awesome-uis/"
     },
 
 }
