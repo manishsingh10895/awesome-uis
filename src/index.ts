@@ -1,5 +1,9 @@
 import './index.css';
 
+console.log(import.meta);
+
+console.log(import.meta["MODE"]);
+
 type Page = {
     title: string,
     href: string,
@@ -36,6 +40,11 @@ let pages: Page[] = [
         }
     }
 ];
+
+pages = pages.map(p => ({
+    ...p,
+    image: "/awesome-uis/" + p.image
+}))
 
 document.body.onload = () => {
     let list = document.querySelector('#app .page-list');
