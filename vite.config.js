@@ -5,7 +5,6 @@ const { resolve } = require('path');
  */
 const config = {
     base: "/awesome-uis/",
-    mode: "randua",
     build: {
         outDir: "docs",
         rollupOptions: {

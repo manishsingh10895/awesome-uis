@@ -20,7 +20,7 @@ let pages: Page[] = [
     {
         title: "Tilt Card",
         description: "Ui cards that tilt on mouse hover based on mouse direction",
-        href: '/tilt-card.html',
+        href: 'tilt-card.html',
         image: "/tilt-card.png",
         credit: {
             name: "Online Tutorials",
