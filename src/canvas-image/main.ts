@@ -7,7 +7,7 @@ myImage.src = imageData;
 
 const canvas: HTMLCanvasElement = document.querySelector('#canvas1') as HTMLCanvasElement;
 
-const ctx = canvas.getContextgs('2d') as CanvasRenderingContext2D;
+const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
 
 canvas.width = 500;
 canvas.height = 700;
