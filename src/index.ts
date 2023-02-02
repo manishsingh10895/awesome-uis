@@ -1,4 +1,5 @@
 import './index.css';
+import './generative-art/flower';
 
 console.log(import.meta);
 
@@ -35,6 +36,28 @@ let pages: Page[] = [
         description: "Particle Rain effect with canvas on an image",
         credit: {
             href: "https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ",
+            name: "Franks Labratory",
+            platform: "Youtube"
+        }
+    },
+    // {
+    //     title: "Cards Border Effect",
+    //     href: "card-border.html",
+    //     image: "",
+    //     description: "Border lighting effect on hovering over a group of cards",
+    //     credit: {
+    //         name: "Hyper Plexed",
+    //         platform: "Youtube",
+    //         href: "https://www.youtube.com/watch?v=htGfnF1zN4g&feature=youtu.be"
+    //     }
+    // },
+    {
+        title: "Generative Canvas Art",
+        href: "generative-art.html",
+        image: "/generative-art.png",
+        description: "Dynamic generative art in an html canvas",
+        credit: {
+            href: "https://www.youtube.com/watch?v=0v4_Dw0K8pw&t=899s",
             name: "Franks Labratory",
             platform: "Youtube"
         }
@@ -101,4 +124,3 @@ document.body.onload = () => {
         list?.appendChild(li);
     });
 }
-console.log("asdasd");
