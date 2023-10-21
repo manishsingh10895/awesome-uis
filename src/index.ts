@@ -61,6 +61,17 @@ let pages: Page[] = [
             name: "Franks Labratory",
             platform: "Youtube"
         }
+    },
+    {
+        title: "Fluid Dots",
+        "href": "fluid-dots.html",
+        "image": "/fluid-dots.gif",
+        description: "Fluid dots animation on button click",
+        credit: {
+            href: "https://www.youtube.com/watch?v=lSzfYAQYKU0&t=176s",
+            name: "Wrong Akram",
+            platform: "Youtube"
+        }
     }
 ];
 

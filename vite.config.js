@@ -11,7 +11,8 @@ const config = {
             input: {
                 main: resolve(__dirname, 'index.html'),
                 'tilt-card': resolve(__dirname, 'tilt-card.html'),
-                'canvas-image': resolve(__dirname, 'canvas-image.html')
+                'canvas-image': resolve(__dirname, 'canvas-image.html'),
+                'fluid-dots': resolve(__dirname, 'fluid-dots.html')
             }
         }
         // base: "/awesome-uis/"
